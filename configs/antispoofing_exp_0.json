@@ -1,0 +1,42 @@
+{
+  "exp_name": "antispoofing_exp_0",
+  "agent": "AntiSpoofingAgent",
+  "mode": "train",
+
+  "cuda": true,
+  "gpu_device": 0,
+  "seed": 1,
+
+  "some_model_attribute": 0,
+
+  "batch_size": 1,
+  "val_batch_size":1,
+  "test_batch_size": 1,
+
+  "learning_rate": 0.01,
+
+  "momentum": 0.5,
+
+  "weight_decay": 0,
+  "beta1": 0.5,
+  "beta2": 0.999,
+
+  "max_epoch": 10,
+
+  "log_interval": 10,
+
+  "validate_every": 2,
+
+  "checkpoint_file": "checkpoint.pth.tar",
+  "checkpoint_dir": "checkpoint",
+  "summary_dir": "summary",
+
+  "data_loader": "SiwDataLoader",
+  "data_loader_workers": 4,
+  "pin_memory": false,
+  "async_loading": false,
+
+  "data_mode": "json",
+  "data_folder": "",
+  "out_dir": "output_images"
+}
